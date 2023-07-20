@@ -22,7 +22,7 @@ html{
   margin: 20px 0px;
 }
 .navbar ul li{
-  font-family: georgia;
+  font-family: impact;
   font-size: 1.1rem ;
   font-weight: bold;
 }
@@ -92,11 +92,17 @@ html{
 
 /* About section */
 #about{
+  background-color: teal;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
+}
+.headings{
+  color: black;
+  font-family: Roboto;
 }
 #pic{
   display:flex;
@@ -114,6 +120,9 @@ html{
 #intro h2{
   font-size: 2rem;
   margin-bottom: 20px;
+}
+.name{
+  color: bisque;
 }
 
 /* Experience Section */
@@ -138,37 +147,33 @@ html{
   margin: 10px;
 }
 /* Education Section */
-#table, tr, td, th 
-{
-    border:1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
-}
-td
-{
-    padding: 10px;
+#table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
 }
 
-tr
-{
-    background-color: bisque;
+td {
+  padding: 10px;
 }
-tr:nth-child(odd)
-    {
-            background-color: azure;
-    }
 
-th
-    {
-        background-color: lightgoldenrodyellow;
-        color: black;
-    }
+tr {
+  background-color: bisque;
+}
 
-tr:hover
-    {
-        background-color: cadetblue;
-    }
-    
+tr:nth-child(odd) {
+  background-color: azure;
+}
+
+th {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+tr:hover {
+  background-color: cadetblue;
+}
+
 /* Services Section */
 #services{
   display: flex;
